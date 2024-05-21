@@ -44,5 +44,3 @@ getOddNumber(num)
 
 friendsAge = [20, 22, 27, 29, 69, 90]
 getOddNumber(friendsAge)
-
-//If else একটা function এ নিয়ে forloop এর মধ্যেও function call করা যায়।
