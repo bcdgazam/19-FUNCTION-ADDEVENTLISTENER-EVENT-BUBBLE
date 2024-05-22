@@ -7,4 +7,8 @@
 
     19-3 Callback function and pass different function (Work same but namd and age different, Synchronous Callbacks)
 
+    19-4 arguments and deal with unknown number of arguments (add morethan 2 numbers)
+
+    19-5 How to organize code inside a function ()
+
 */
