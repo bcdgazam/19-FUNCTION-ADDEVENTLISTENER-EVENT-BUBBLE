@@ -5,6 +5,6 @@
 
     19-2 Again When to return from a function and from where (When use return and when not, make a function use if else and return, make a result squire )
 
-    19-3 Callback function and pass different function ()
+    19-3 Callback function and pass different function (Work same but namd and age different)
 
 */
