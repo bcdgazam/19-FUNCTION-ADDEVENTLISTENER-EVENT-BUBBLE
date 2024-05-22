@@ -1,4 +1,7 @@
-//19-3 Callback function and pass different function
+//19-3 Callback function and pass different function (types: Synchronous Callbacks, Asynchronous Callbacks)
+
+
+//Synchronous Callbacks
 
 function explain_callback(name, age, task){
     console.log('Hello:', name);
