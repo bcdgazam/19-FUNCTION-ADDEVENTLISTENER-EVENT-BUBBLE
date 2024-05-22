@@ -9,6 +9,6 @@
 
     19-4 arguments and deal with unknown number of arguments (add morethan 2 numbers)
 
-    19-5 How to organize code inside a function ()
+    19-5 How to organize code inside a function (function writing style)
 
 */
