@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Practice</title>
+    <style>
+        body{
+            width: 1280px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <!-- I'll never use this method -->
+        <!-- <h1 onclick="console.log('hello programmers');">Exploring Events</h1> 
+        <button onclick="alert(13)">click me</button> -->
+
+        <!-- I'll use this method -->
+        <h1>Exploring Events</h1> 
+        <button onclick="handleClick()">click me</button>
+        <script>
+            function handleClick(){
+                console.log('Someone Clicked Me!');
+            }
+        </script>
+    </section>
+</body>
+</html>
