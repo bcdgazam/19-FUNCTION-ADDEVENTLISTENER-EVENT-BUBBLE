@@ -19,6 +19,7 @@
     <script>
         document.getElementById('first').addEventListener('click', function(event){
             console.log('first item clicked');
+            event.stopPropagation();
         })
         document.getElementById('myList').addEventListener('click', function(event){
             console.log('List clicked');

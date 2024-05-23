@@ -17,6 +17,8 @@
 
     19-8 add event listener using javascript (various method)
 
-    19-9 Event bubble with example ()
+    19-9 Event bubble with example (https://www.salesforcetroop.com/lwc/event-with-bubbling-child-to-parent-component)
+
+    19-10 Stop propagating event bubble (stop the bubble system: event.stopPropagation(এটা উপরে যাওয়া অফ করে দিবে); event.stopImmediatePropagation(আশে পাশের গুলাও বন্ধ করে দিবে);)
 
 */
