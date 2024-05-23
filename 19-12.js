@@ -13,6 +13,8 @@
 
     19-6 What is Event, different types of event in web (Mouse click event, keyboard key press event, browser event, Mouse move event.)
 
-    //19-7 add event handler directly on an element
+    19-7 add event handler directly on an element (onclick, onmousemove, onmouseout)
+
+    19-8 add event listener using javascript (various method)
 
 */

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring Event Listener</title>
+</head>
+<body>
+    <h1>Exploring Event Listener</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum asperiores dolore explicabo vitae fugiat impedit animi accusamus labore officiis, quae eaque blanditiis pariatur, omnis soluta ex iusto! Omnis, sit quis!</p>
+    <button id="eventButton">Click Me -1</button>
+    <button>Click Me -2</button>
+    <button id="lastPerson">Click Me -3</button>
+    <script>
+        /*
+        
+        //A way
+        const firstButton = document.getElementById('eventButton');
+        firstButton.onclick = handleClick;
+
+        //another way
+
+        function handleClick(){
+            document.body.style.backgroundColor = 'cyan';
+        }
+        const firstButton = document.getElementById('eventButton');
+        firstButton.onclick = handleClick;
+
+        firstButton.onclick = function (){
+            console.log('2nd person clicked me');
+        }
+        */
+
+        //another way
+        /*
+        const firstButton = document.getElementById('eventButton');
+        firstButton.addEventListener('click', handleClick);
+        function handleClick(){
+            document.body.style.backgroundColor = 'cyan';
+        }
+        */
+
+        //another way
+        document.getElementById('lastPerson').addEventListener('click', function(){
+            document.body.style.color = 'tomato';
+        })
+
+    </script> 
+</body>
+</html>
