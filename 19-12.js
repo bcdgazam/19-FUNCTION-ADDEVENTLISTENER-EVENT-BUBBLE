@@ -11,4 +11,6 @@
 
     19-5 How to organize code inside a function (function writing style)
 
+    19-6 What is Event, different types of event in web (Mouse click event, keyboard key press event, browser event, Mouse move event.)
+
 */
