@@ -21,4 +21,6 @@
 
     19-10 Stop propagating event bubble (stop the bubble system: event.stopPropagation(এটা উপরে যাওয়া অফ করে দিবে); event.stopImmediatePropagation(আশে পাশের গুলাও বন্ধ করে দিবে);)
 
+    19-11 Event delegate and purpose of Event bubble (Add new list item and remove by click)
+
 */
