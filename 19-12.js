@@ -5,7 +5,7 @@
 
     19-2 Again When to return from a function and from where (When use return and when not, make a function use if else and return, make a result squire )
 
-    19-3 Callback function and pass different function (Work same but namd and age different, Synchronous Callbacks)
+    19-3 Callback function and pass different function (Work same but nam and age different, Synchronous Callbacks)
 
     19-4 arguments and deal with unknown number of arguments (add morethan 2 numbers)
 
@@ -13,7 +13,7 @@
 
     19-6 What is Event, different types of event in web (Mouse click event, keyboard key press event, browser event, Mouse move event.)
 
-    19-7 add event handler directly on an element (onclick, onmousemove, onmouseout)
+    19-7 add event handler directly on an element (onclick, onmousemove, onmouseout) (Add click event on a button using function)
 
     19-8 add event listener using javascript (various method)
 

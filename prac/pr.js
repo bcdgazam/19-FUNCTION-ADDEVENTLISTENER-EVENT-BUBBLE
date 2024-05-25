@@ -64,5 +64,5 @@ function addNumbers(){
     return sum;
 }
 
-let result = addNumbers(3, 5, 2, 5, 25);
+let result = addNumbers(3, 5, 2, 5, 25, 500);
 console.log(result);
