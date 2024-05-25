@@ -27,6 +27,19 @@ for(let i = 0; i <nums.length; i++){
 */
 
 
+// Creating a multiplication table
+// let number = 2;
+// for (let i = 1; i <= 10; i++) {
+//     const result = i * number;
+//     console.log(`${number} * ${i} = ${result}`);
+// }
+let number = 2;
+for (let i = 1; i <= 10; i++) {
+    const result = i * number;
+    console.log(number, '*', i, '=', result);
+}
+
+
 function getOddNumber(num){
     for(let i = 0; i <num.length; i++){
         let element = num[i];
