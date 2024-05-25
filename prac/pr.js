@@ -25,18 +25,20 @@
 // }
 
 
+
+for(let i = 0; i < n.length; i++){
+    let element = n[i];
+    console.log(element);
+}
+
 function doubleOnlyEven(n){
-    for(let i = 0; i < n.length; i++){
-        let element = n[i];
-        if(element % 2 == 0){
-            console.log(element, 'is a even number');
-        }
-        else{
-            console.log(element * 2, 'is an odd number');
-        }
+    if(element % 2 == 0){
+        return element;
+    }
+    else{
+        return element;
     }
 }
 
 let numberOne = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
-doubleOnlyEven(numberOne)
 doubleOnlyEven(numberOne)

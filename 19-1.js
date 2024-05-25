@@ -33,13 +33,34 @@ for(let i = 0; i <nums.length; i++){
 //     const result = i * number;
 //     console.log(`${number} * ${i} = ${result}`);
 // }
+/*
 let number = 2;
 for (let i = 1; i <= 10; i++) {
     const result = i * number;
     console.log(number, '*', i, '=', result);
 }
+*/
 
 
+//Function Invocation
+function evenify(element) {
+    if(element % 2 == 0){
+        console.log(element, ': is an even number');
+    }
+    else{
+        console.log(element, ': is odd number');
+    }
+}
+
+let num = [11, 13, 12, 17, 14];
+for(let i = 0; i <num.length; i++){
+    let element = num[i];
+    evenify(element);
+}
+
+
+
+/*
 function getOddNumber(num){
     for(let i = 0; i <num.length; i++){
         let element = num[i];
@@ -57,3 +78,4 @@ getOddNumber(num)
 
 friendsAge = [20, 22, 27, 29, 69, 90]
 getOddNumber(friendsAge)
+*/
