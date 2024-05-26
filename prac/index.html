@@ -3,19 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add event handler directly to an element</title>
+    <title>Practicing Event Listener</title>
 </head>
 <body>
-    <!-- <h2 onclick="console.log('hello');">This is heading</h2>
-    <button onclick="console.log('Someone clicked me');">click me</button> -->
-
-    <section>
-        <h1>This is heading One</h1>
-        <button onclick="clickHandler()">Clic me</button>
-    </section>
+    <h1>Event Listener</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, esse exercitationem hic a id ab laborum ex odio ullam, consequatur enim tenetur voluptatem voluptate architecto pariatur possimus fugiat aspernatur suscipit.</p>
+    <button id="firstButton">Button One</button>
     <script>
-        function clickHandler(){
-            console.log('Some one clicked me');
+        const firstButton = document.getElementById('firstButton');
+        firstButton.onclick = buttonClicked;
+        function buttonClicked(){
+            document.body.style.backgroundColor = 'cyan';
         }
     </script>
 </body>

@@ -15,7 +15,7 @@
 
     19-7 add event handler directly on an element (onclick, onmousemove, onmouseout) (Add click event on a button using function)
 
-    19-8 add event listener using javascript (various method)
+    19-8 add event listener using javascript (click a button to change background color)
 
     19-9 Event bubble with example (https://www.salesforcetroop.com/lwc/event-with-bubbling-child-to-parent-component)
 
