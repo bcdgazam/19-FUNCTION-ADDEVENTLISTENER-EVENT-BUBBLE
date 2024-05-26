@@ -8,26 +8,16 @@
 <body>
     <h1>This is heading One</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus praesentium dignissimos, repellat voluptatum reprehenderit possimus rerum facilis deserunt debitis quisquam temporibus aspernatur a voluptatibus vero corrupti recusandae. Veniam, vitae possimus.</p>
-    <button id="firstButton">Yellow</button>
-    <button id="secondButton">Green</button>
-    <button id="pinkButton">Pink</button>
+    <button onclick="firstButton()" id="firstButton">Yellow</button>
     <script>
-        let firstButton = document.getElementById('firstButton');
-        firstButton.onclick = clickHandler;
-        function clickHandler(){
-            document.body.style.backgroundColor = 'yellow';
-        }
+        // let connect = document.getElementById('firstButton');
+        // connect.onclick = buttonHandler;
+        // function buttonHandler(){
+        //     document.body.style.backgroundColor = 'pink';
+        // }
 
-        let secondButton = document.getElementById('secondButton');
-        secondButton.onclick = clickHandlerSecond;
-        function clickHandlerSecond(){
-            document.body.style.backgroundColor = 'green';
-        }
-
-        let pinkButton = document.getElementById('pinkButton');
-        pinkButton.onclick = pinkHandler;
-        function pinkHandler(){
-            document.body.style.backgroundColor = 'pink';
+        function firstButton(){
+            console.log('someone clicked me');
         }
     </script>
 </body>
