@@ -10,25 +10,15 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus praesentium dignissimos, repellat voluptatum reprehenderit possimus rerum facilis deserunt debitis quisquam temporibus aspernatur a voluptatibus vero corrupti recusandae. Veniam, vitae possimus.</p>
     <button id="firstButton">Yellow</button>
     <script>
-        // let connect = document.getElementById('firstButton');
-        // connect.onclick = buttonHandler;
-        // function buttonHandler(){
+        // let eventListener = document.getElementById('firstButton');
+        // eventListener.addEventListener('click', clickHandler);
+        // function clickHandler(){
         //     document.body.style.backgroundColor = 'pink';
         // }
 
-        // function firstButton(){
-        //     console.log('someone clicked me');
-        // }
-
-        // let anotherMethod = document.getElementById('firstButton');
-        // anotherMethod.onclick = function(){
-        //     document.body.style.backgroundColor = 'yellow';
-        // }
-        const firstButton = document.getElementById('firstButton');
-        firstButton.addEventListener('click', handleClick);
-        function handleClick(){
-            document.body.style.backgroundColor = 'cyan';
-        }
+        document.getElementById('firstButton').addEventListener('click', function(){
+            document.body.style.backgroundColor = 'tomato';
+        })
     </script>
 </body>
 </html>
