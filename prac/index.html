@@ -3,15 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add event listener</title>
+    <title>Document</title>
 </head>
 <body>
-    <h1>This is heading One</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus praesentium dignissimos, repellat voluptatum reprehenderit possimus rerum facilis deserunt debitis quisquam temporibus aspernatur a voluptatibus vero corrupti recusandae. Veniam, vitae possimus.</p>
-    <button id="firstButton">Yellow</button>
+    <div id="container">
+        <h1>My List</h1>
+        <ul id="myList">
+            <li id="first" class="item">Lorem, ipsum dolor.</li>
+            <li class="item">Dolore, provident porro.</li>
+            <li class="item">Tempora, tempore quisquam.</li>
+            <li class="item">Fuga, minima sapiente?</li>
+            <li class="item">Odit, explicabo voluptatem?</li>
+        </ul>
+    </div>
     <script>
-        document.getElementById('firstButton').addEventListener('click', function(){
-            document.body.style.backgroundColor = 'pink';
+        document.getElementById('first').addEventListener('click', function(event){
+            console.log('first item clicked');
+            event.stopPropagation();
+        })
+        document.getElementById('myList').addEventListener('click', function(event){
+            console.log('List clicked');
+        })
+        document.getElementById('container').addEventListener('click', function(event){
+            console.log('Container clicked');
         })
     </script>
 </body>
