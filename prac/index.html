@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            width: 1280px;
+            margin: 0 auto;
+        }
+        #container h1{
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <div id="container">
@@ -15,18 +25,43 @@
             <li class="item">Fuga, minima sapiente?</li>
             <li class="item">Odit, explicabo voluptatem?</li>
         </ul>
+        <button id="addNew">Add New Item</button>
     </div>
     <script>
-        document.getElementById('first').addEventListener('click', function(event){
-            console.log('first item clicked');
-            event.stopPropagation();
+        /*
+        let listStyle = document.getElementsByClassName('item');
+        for (let i = 0; i < listStyle.length; i++) {
+            const element = listStyle[i];
+            element.addEventListener('click', function(event){
+                // console.log(this, event.target.parentNode); //is used to show in console tab
+                this, event.target.parentNode.removeChild(event.target);
+            })
+        }
+
+        //add a new text to the list item
+        document.getElementById('addNew').addEventListener('click', function(event){
+            let itemParent = document.getElementById('myList');
+            let newItem = document.createElement('li');
+            newItem.innerText = 'Brand New Item';
+            itemParent.appendChild(newItem);
         })
+        */
+
+        //By Using the upper method "Brand New Item" will not remove by click: Solution is in below:
+
+        document.getElementById('addNew').addEventListener('click', function(event){
+            let itemParent = document.getElementById('myList');
+            let newItem = document.createElement('li');
+            newItem.innerText = 'Brand New Item';
+            itemParent.appendChild(newItem);
+        })
+
         document.getElementById('myList').addEventListener('click', function(event){
-            console.log('List clicked');
+            // console.log(this, event.target);
+            event.target.parentNode.removeChild(event.target);
         })
-        document.getElementById('container').addEventListener('click', function(event){
-            console.log('Container clicked');
-        })
+
+        //this and event.target are almost same; event.target.innerText is used to access inside text; event.target.parentNode is used to get upper id/class; 
     </script>
 </body>
 </html>
