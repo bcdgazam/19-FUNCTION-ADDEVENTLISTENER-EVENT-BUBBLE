@@ -32,7 +32,7 @@
         for(let i = 0; i < items.length; i++){
             let elements = items[i];
             elements.addEventListener('click', function(event){
-                console.log(event.target.parentNode);
+                event.target.parentNode.removeChild(event.target);
             })
         }
     </script>
