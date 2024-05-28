@@ -28,25 +28,15 @@
         <button id="addNew">Add New Item</button>
     </div>
     <script>
-        // document.getElementById('addNew').addEventListener('click', function(event){
-        //     let itemParent = document.getElementById('myList');
-        //     let newItem = document.createElement('li');
-        //     newItem.innerText = 'Brand New Item';
-        //     itemParent.appendChild(newItem);
-        // })
-
-        // document.getElementById('myList').addEventListener('click', function(event){
-        //     event.target.parentNode.removeChild(event.target);
-        // })
-
-        document.getElementById('addNew').addEventListener('click', function(event){
-            let itemParent = document.getElementById('myList');
-            let newItem = document.createElement('li');
-            newItem.innerText = 'New Item is added';
-            itemParent.appendChild(newItem);
+        document.getElementById('addNew').addEventListener('click', function(){
+            let parentItem = document.getElementById('myList');
+            let newElement = document.createElement('li');
+            newElement.innerText = 'Mayeisha Khatun';
+            parentItem.appendChild(newElement);
         })
-        document.getElementById('myList').addEventListener('click', function(enenty){
-            enenty.target.parentNode.removeChild(enenty.target);
+
+        document.getElementById('myList').addEventListener('click', function(event){
+            event.target.parentNode.removeChild(event.target);
         })
     </script>
 </body>
