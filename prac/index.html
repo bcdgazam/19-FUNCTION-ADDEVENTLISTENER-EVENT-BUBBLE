@@ -35,6 +35,12 @@
                 event.target.parentNode.removeChild(event.target);
             })
         }
+        document.getElementById('addNew').addEventListener('click', function(event){
+            let itemParent = document.getElementById('myList');
+            let newItem = document.createElement('li');
+            newItem.innerText = 'Brand New Item';
+            itemParent.appendChild(newItem);
+        })
     </script>
 </body>
 </html>
